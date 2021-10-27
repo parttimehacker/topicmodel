@@ -1,7 +1,6 @@
 # topicmodel
 The TopicModel class manages application specific information based on application topics, e.g. MQTT Broker subscribe/publish.
-The TopicModel class is used respond to the MQTT topic: **diy/system/test**. This class is one of five general classes in my *do it yourself home automation system* (**DIYHA**). Each python DIYHA application is hosted on a Raspberry Pi server and will respond to a **diy/system/test** subscribed topic and report on their status or application specific test data. 
-- Note - Some DIYHA applications have an additional diy/system/test user interface, e.g., 8x8 matrix or seven segment LED, to display diagnostic information in a project specific MVC view. 
+This class is one of five general classes in my *do it yourself home automation system* (**DIYHA**). Each python DIYHA application is hosted on a Raspberry Pi server and will respond to a variety of subscribed topic and report on their status or application specific test data. 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django)
